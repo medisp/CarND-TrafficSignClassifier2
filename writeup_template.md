@@ -124,8 +124,8 @@ I believe a convolutional layer was the right approach due to how low level feat
 ####1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 Here are the new images I found on the web:
 
-![alt tag](https://github.com/medisp/CarND-TrafficSignClassifier2/blob/master/vis4.PNG)
-![alt tag](https://github.com/medisp/CarND-TrafficSignClassifier2/blob/master/vis5.PNG)
+![alt tag](https://github.com/medisp/CarND-TrafficSignClassifier2/blob/master/vis4.png)
+![alt tag](https://github.com/medisp/CarND-TrafficSignClassifier2/blob/master/vis5.png)
 
 ### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set
 
@@ -134,7 +134,7 @@ This was an image represnting the different images in this dataset that I pulled
 
 These images may be particularly difficult due to the weather and lighting on them. For instance, I thought the 30 km/hr speed limit sign would be most difficult for the model to classify.
 
-![alt tag](https://github.com/medisp/CarND-TrafficSignClassifier2/blob/master/vis6.PNG)
+![alt tag](https://github.com/medisp/CarND-TrafficSignClassifier2/blob/master/vis6.png)
 
 ## Question 3
 Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability.
