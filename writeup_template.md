@@ -130,11 +130,13 @@ Here are the new images I found on the web:
 ### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set
 
 The model had accuracy of 80% when predicting the right class when using new images from the link provided: https://www.embedded-vision.com/sites/default/files/technical-articles/CadenceCNN/Figure15.jpg
-This was an image represnting the different images in this dataset that I pulled and parsed into new images.
+This was an image representing the different images in this dataset that I pulled and parsed into new images.
 
 These images may be particularly difficult due to the weather and lighting on them. For instance, I thought the 30 km/hr speed limit sign would be most difficult for the model to classify.
 
 ![alt tag](https://github.com/medisp/CarND-TrafficSignClassifier2/blob/master/vis6.png)
+
+The Accuracy of the model on captured images was 80% but the testing accuracy was 91.6%. I believe the model may have overfitted and could not generalize the new picture. It also could be due to how the sample set was only 5 images. if there were maybe 1000 new images, we may see a better analysis of how the model may be overfitting the test data.
 
 ## Question 3
 Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability.
